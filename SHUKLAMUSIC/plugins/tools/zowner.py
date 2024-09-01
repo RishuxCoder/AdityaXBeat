@@ -32,7 +32,7 @@ from SHUKLAMUSIC.utils.decorators.userbotjoin import UserbotWrapper
 from SHUKLAMUSIC.utils.database import get_assistant, is_active_chat
 
 
-@app.on_message(filters.command("repo"))
+@app.on_message(filters.command("7re8po"))
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/1845472a641e97ac614a4.jpg",
@@ -69,7 +69,7 @@ async def clones(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🗡️ 𝐕1 𝐌ᴜsɪᴄ 𝐑ᴇᴘᴏ 🗡️", url=f"https://github.com/itzshukla/STRANGER-MUSIC2.0"
+                        "●⃝🐼🇷ishu࿐♡", url=f"https://t.me/ur_rishu_143"
                     )
                 ]
             ]
