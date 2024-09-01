@@ -112,12 +112,12 @@ async def ping_com(client, message: Message, _):
                 ],
                 [
                     InlineKeyboardButton(
-                        text="▪️ɢʀᴏᴜᴘ▪️",
-                        url=f"https://t.me/Inflex_Support",
+                        text="🍁ɢʀᴏᴜᴘ🍁",
+                        url=f"https://t.me/FRIENDSCHATTINGZONEOFFICIAL",
                     ),
                     InlineKeyboardButton(
-                        text="▪️ᴍᴏʀᴇ▪️",
-                        url=f"https://t.me/Inflexupdate",
+                        text="🍂ᴍᴏʀᴇ🍂",
+                        url=f"https://t.me/+afuAoqlXTyhjN2I1",
                     ),
                 ],
                 [
