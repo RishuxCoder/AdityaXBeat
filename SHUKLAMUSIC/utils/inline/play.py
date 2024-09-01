@@ -113,21 +113,21 @@ def stream_markup(_, videoid, chat_id):
                 text="✚ ᴘʟᴀʏʟɪsᴛ", callback_data=f"shukla_playlist {videoid}"
             ),
             InlineKeyboardButton(
-                text="🔸ᴄᴏɴᴛʀᴏʟs ♻",
+                text="ᴄᴏɴᴛʀᴏʟs ♻",
                 callback_data=f"Pages Back|3|{videoid}|{chat_id}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="▪️ᴠɪᴅᴇᴏ▪️", callback_data=f"downloadvideo {videoid}"
+                text="✰sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/FRIENDSCHATTINGZONEOFFICIAL"
             ),
             InlineKeyboardButton(
-                text="▪️ᴀᴜᴅɪᴏ▪️", callback_data=f"downloadaudio {videoid}"
+                text="ᴜᴘᴅᴀᴛᴇ✰", url=f"https://t.me/+afuAoqlXTyhjN2I1"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🔸ᴀᴅᴠᴀɴᴄᴇ🔸",
+                text="✰ᴀᴅᴠᴀɴᴄᴇ✰",
                 callback_data=f"Pages Forw|0|{videoid}|{chat_id}",
             ),
         ],
@@ -358,11 +358,11 @@ def panel_markup_1(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="▪️10 sᴇᴄ▪️",
+                text="🕜10 sᴇᴄ🕜",
                 callback_data=f"ADMIN 1|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="▫️10 sᴇᴄ▫️",
+                text="🕜10 sᴇᴄ🕜",
                 callback_data=f"ADMIN 2|{chat_id}",
             ),
         ],
