@@ -81,7 +81,7 @@ def aq_markup(_, chat_id):
         [
             InlineKeyboardButton(
                 text="▫️ᴍᴏʀᴇ▫️",
-                url="https://t.me/Inflexupdate",
+                url="https://t.me/FRIENDSCHATTINGZONEOFFICIAL",
             ),
         ],
     ]
