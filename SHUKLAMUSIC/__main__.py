@@ -48,14 +48,14 @@ async def init():
     await SHUKLA.start()
     await SHUKLA.decorators()
     await restart_bots()
-    LOGGER("SHUKLAMUSIC").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗦𝗛𝗜𝗩𝗔𝗡𝗦𝗛♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER("SHUKLAMUSIC").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗥𝗜𝗦𝗛𝗨♨️\n╚═════ஜ۩۞۩ஜ════╝")
     await idle()
 
     await app.stop()
     await userbot.stop()
 
     LOGGER("SHUKLAMUSIC").info(
-        "                 ╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗦𝗛𝗜𝗩𝗔𝗡𝗦𝗛♨️\n╚═════ஜ۩۞۩ஜ════╝"
+        "                 ╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗥𝗜𝗦𝗛𝗨♨️\n╚═════ஜ۩۞۩ஜ════╝"
     )
 
 
