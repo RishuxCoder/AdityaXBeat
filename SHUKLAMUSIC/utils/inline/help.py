@@ -7,8 +7,8 @@ from SHUKLAMUSIC import app
 
 def first_page(_):
     controll_button = [
-        InlineKeyboardButton(text="▪️ᴍᴏʀᴇ▪️", callback_data=f"settingsback_helper"),
-        InlineKeyboardButton(text="▪️ɴᴇxᴛ▪️", callback_data=f"dilXaditi"),
+        InlineKeyboardButton(text="ᴍᴏʀᴇ", callback_data=f"settingsback_helper"),
+        InlineKeyboardButton(text="ɴᴇxᴛ", callback_data=f"dilXaditi"),
     ]
     first_page_menu = InlineKeyboardMarkup(
         [
@@ -63,7 +63,7 @@ def first_page(_):
 
 def second_page(_):
     controll_button = [
-        InlineKeyboardButton(text="▪️ʙᴀᴄᴋ▪️", callback_data=f"settings_back_helper")
+        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data=f"settings_back_helper")
     ]
     second_page_menu = InlineKeyboardMarkup(
         [
@@ -130,59 +130,59 @@ def help_pannel(_, START: Union[bool, int] = None):
         [
             [
                 InlineKeyboardButton(
-                    text="🔸ᴧᴅᴍɪɴ🔸",
+                    text="ᴧᴅᴍɪn",
                     callback_data="help_callback hb1",
                 ),
                 InlineKeyboardButton(
-                    text="▪️ᴧᴜᴛʜ▪️",
+                    text="ᴧᴜᴛʜ",
                     callback_data="help_callback hb2",
                 ),
                 InlineKeyboardButton(
-                    text="🔸ʙʟᴏᴄᴋ🔸",
+                    text="ʙʟᴏᴄᴋ",
                     callback_data="help_callback hb3",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🔸ɢ-ᴄᴧsᴛ🔸",
+                    text="ɢ-ᴄᴧsᴛ",
                     callback_data="help_callback hb4",
                 ),
                 InlineKeyboardButton(
-                    text="🔸ɢ-ʙᴧɴ🔸",
+                    text="ɢ-ʙᴧɴ",
                     callback_data="help_callback hb12",
                 ),
                 InlineKeyboardButton(
-                    text="▪️ʟʏʀɪᴄs▪️",
+                    text="ʟʏʀɪᴄs",
                     callback_data="help_callback hb5",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="▫️ᴘʟᴀʏʟɪsᴛs▫️",
+                    text="ᴘʟᴀʏʟɪsᴛs",
                     callback_data="help_callback hb6",
                 ),
                 InlineKeyboardButton(
-                    text="🔸ᴠᴏɪᴄᴇ-ᴄʜᴀᴛ🔸",
+                    text="vᴏɪᴄᴇ-ᴄʜᴀ",
                     callback_data="help_callback hb10",
                 ),
             ],
             [
-                            InlineKeyboardButton(text="🔸sʜɪᴠᴀɴsʜ-xᴅ🔸", url=f"https://t.me/SHIVANSHDEVS"),
-                            InlineKeyboardButton(text="▪️sʜᴜᴋʟᴀ▪️", url=f"https://t.me/ITSZ_SHIVANSH"),
+                            InlineKeyboardButton(text="xᴅ", url=f"https://t.me/rishu1286"),
+                            InlineKeyboardButton(text="update ", url=f"https://t.me/ur_rishu_143"),
             ],
             [
                 InlineKeyboardButton(
-                    text="▫️ᴘʟᴀʏ▫️",
+                    text="ᴘʟᴀʏ",
                     callback_data="help_callback hb8",
                 ),
                 InlineKeyboardButton(
-                    text="🔸sᴜᴅᴏ🔸",
+                    text="sᴜᴅo",
                     callback_data="help_callback hb9",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="▪️ sᴛᴀʀᴛ ▪️",
+                    text="sᴛᴀʀᴛ",
                     callback_data="help_callback hb11",
                 ),
             ],
@@ -211,7 +211,7 @@ def private_help_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🔹ʜᴇʟᴘ🔹",
+                text="ʜᴇʟᴘ",
                 callback_data="settings_back_helper",
             ),
         ],
