@@ -246,21 +246,21 @@ async def greet_new_member(
             button_text = "๏ ᴠɪᴇᴡ ɴᴇᴡ ᴍᴇᴍʙᴇʀ ๏"
             add_button_text = "๏ ᴋɪᴅɴᴀᴘ ᴍᴇ ๏"
             deep_link = f"{user.id}"
-            add_link = f"https://t.me/InflexMusicRobot?startgroup=true"
+            add_link = f"https://t.me/vip_music_vc_bot?startgroup=true"
             temp.MELCOW[f"welcome-{member.chat.id}"] = await client.send_photo(
                 member.chat.id,
                 photo=welcomeimg,
                 caption=f"""
-**💠────✦ ᴡᴇʟᴄᴏᴍᴇ ✦────💠**
+**✰────✦ ᴡᴇʟᴄᴏᴍᴇ ✦────✰**
 
 ▰▰▰▰▰▰▰▰▰▰▰▰▰
-**▫️ ɴᴀᴍᴇ »** {user.mention}
-**🔸 ɪᴅ »** `{user.id}`
-**▪️ ᴜ_ɴᴀᴍᴇ »** @{user.username}
-**▫️ ᴛᴏᴛᴀʟ ᴍᴇᴍʙᴇʀs »** {count}
+**➥ ɴᴀᴍᴇ »** {user.mention}
+**➥ ɪᴅ »** `{user.id}`
+**➥ ᴜ_ɴᴀᴍᴇ »** @{user.username}
+**➥ ᴛᴏᴛᴀʟ ᴍᴇᴍʙᴇʀs »** {count}
 ▰▰▰▰▰▰▰▰▰▰▰▰▰
 
-**💠─────✧❅✦❅✧─────💠**
+**✰─────✧❅✦❅✧─────✰**
 """,
                 reply_markup=InlineKeyboardMarkup(
                     [
